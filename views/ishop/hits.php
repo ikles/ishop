@@ -1,5 +1,6 @@
    <?php defined('ISHOP') or die("Access denided"); ?>
    <div class="catalog-index">
+   <?php print_arr($cat); ?>
     <h1>Лидеры продаж</h1>
     <div class="product-index">
      <h2><a href="#">Sony Xperia S 32Gb (черный)</a></h2>
@@ -8,4 +9,3 @@
      <a href="#"><img class="addtocard-index" src="<?php echo TEMPLATE; ?>images/addcard-index.jpg" alt="Добавить в карзину" /></a>
    </div>
  </div> 
-    
